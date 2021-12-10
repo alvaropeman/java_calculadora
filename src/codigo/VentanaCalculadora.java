@@ -42,7 +42,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
 
         pantalla.setBackground(new java.awt.Color(0, 0, 0));
         pantalla.setFont(new java.awt.Font("Consolas", 0, 40)); // NOI18N
-        pantalla.setForeground(new java.awt.Color(0, 204, 51));
+        pantalla.setForeground(new java.awt.Color(0, 153, 51));
         pantalla.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         pantalla.setText("0");
         pantalla.setOpaque(true);
@@ -190,43 +190,53 @@ public class VentanaCalculadora extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void boton07ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton07ActionPerformed
-        pantalla.setText("7");
+        String auxiliar = pantalla.getText();
+        if(auxiliar=="0"){
+            pantalla.setText("7");
+        }else{
+        pantalla.setText(auxiliar+"7");
+        }
     }//GEN-LAST:event_boton07ActionPerformed
 
     private void boton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton9ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();
+        if(auxiliar=="0"){
+            pantalla.setText("9");
+        }else{
+        pantalla.setText(auxiliar+"9");
+        }
     }//GEN-LAST:event_boton9ActionPerformed
 
     private void boton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton8ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();        if(auxiliar=="0"){            pantalla.setText("8");        }else{        pantalla.setText(auxiliar+"8");        }
     }//GEN-LAST:event_boton8ActionPerformed
 
     private void boton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();        if(auxiliar=="0"){            pantalla.setText("3");        }else{        pantalla.setText(auxiliar+"3");        }
     }//GEN-LAST:event_boton3ActionPerformed
 
     private void boton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton2ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();        if(auxiliar=="0"){            pantalla.setText("2");        }else{        pantalla.setText(auxiliar+"2");        }
     }//GEN-LAST:event_boton2ActionPerformed
 
     private void boton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton1ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();        if(auxiliar=="0"){            pantalla.setText("1");        }else{        pantalla.setText(auxiliar+"1");        }
     }//GEN-LAST:event_boton1ActionPerformed
 
     private void boton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton6ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();        if(auxiliar=="0"){            pantalla.setText("6");        }else{        pantalla.setText(auxiliar+"6");        }
     }//GEN-LAST:event_boton6ActionPerformed
 
     private void boton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton4ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();        if(auxiliar=="0"){            pantalla.setText("4");        }else{        pantalla.setText(auxiliar+"4");        }
     }//GEN-LAST:event_boton4ActionPerformed
 
     private void boton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton5ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();        if(auxiliar=="0"){            pantalla.setText("5");        }else{        pantalla.setText(auxiliar+"5");        }
     }//GEN-LAST:event_boton5ActionPerformed
 
     private void boton0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton0ActionPerformed
-        // TODO add your handling code here:
+           String auxiliar = pantalla.getText();        if(auxiliar=="0"){            pantalla.setText("0");        }else{        pantalla.setText(auxiliar+"0");        }
     }//GEN-LAST:event_boton0ActionPerformed
 
     /**
